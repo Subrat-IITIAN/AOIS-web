@@ -1,0 +1,140 @@
+/* Import Google Font */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #1d3557;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    /* border-left: 5px solid #007bff; */
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0 4%;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: #007bff;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    padding: 8px 0;
+}
+
+/* Buttons & Hover Effects */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Dark Mode Toggle */
+.dark-mode {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+.dark-mode h1, .dark-mode h2 {
+    color: #ffcc00;
+}
+
+.toggle-dark-mode {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #ffcc00;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #6e7681;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.text{
+    width: 70%;
+}
+.profile-picture {
+    position: relative;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.profile-picture img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container2{
+    padding-left: 110px;
+    padding-right: 110px;
+}
